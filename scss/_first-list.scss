@@ -1,0 +1,255 @@
+@import './vars';
+
+.header {
+        &__nav{
+                margin-left: auto;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                line-height: 18px;
+        } 
+
+          
+        
+        &__nav-link {
+                color: $text-titl-collor;
+                margin-left: 40px;
+                text-decoration: none;
+        }
+
+        &__nav-link-act {
+                margin: 0;
+                color: $activ-color;
+        }
+}
+
+.banner {
+        margin-bottom: 127px;
+
+        &__card {
+                position: relative;
+        }
+
+        &__item {
+                height: 650px;
+        } 
+
+        &__title-box {
+                background: rgba(248, 238, 238, 0.65);
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                height: 213px;
+                transform: translateY(-50%);
+        }
+
+        &__title-box h1 {
+                margin-top: 4%;
+                font-weight: 900;
+                font-size: 75px;
+                line-height: 88px;
+                color: rgba(33, 2, 122, 1);
+                text-align: center;
+        }
+
+
+        &__title-box strong {
+                color: rgba(255, 49, 3, 1);
+        }
+                       
+
+}
+//--------------------
+.members__title {
+        text-align: center;
+        position: relative;
+        padding: 28px 0 29px;
+        margin: 0 0 60px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        text-transform: capitalize;
+    
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 155px;
+            height: 5px;
+            background-color: $activ-color;
+            content: "";
+        }
+    
+        &::after {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 155px;
+            height: 5px;
+            background-color: $activ-color;
+            content: "";
+        }
+    }
+
+    .members {
+            margin-bottom: 127px;
+
+        &__item {
+                display: grid;
+                grid-template-columns: repeat(4, 268px);
+                grid-gap: 60px;
+        }
+
+        &__card {
+                width: 268px;
+                min-height: 268px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;                
+                background-image: url("/images/robert.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                border: 15px solid transparent;
+                border-image: linear-gradient(to right, $activ-color 30%,  #cf6d17 50% , $main-collor 50%);
+                // -moz-border-image: -moz-linear-gradient(left, #0B0E7F , #0B95DD);
+                // -webkit-border-image: -webkit-linear-gradient(left, #0B0E7F , #0B95DD);
+                border-image-slice: 1;
+                position: relative;
+                        
+        }
+
+        &__1 {
+                background-image: url("/images/nura.jpg");
+        }
+
+        &__2 {
+                background-image: url("/images/asel.jpg");
+        }
+
+        &__3 {
+                background-image: url("/images/aiperi.jpg");
+        }
+
+        &__4 {
+                background-image: url("/images/shaxzada.jpg");
+        }
+
+        &__5 {
+                background-image: url("/images/asylgul.jpg");
+        }
+
+        &__6 {
+                background-image: url("/images/chynara.jpg");
+        }
+
+        &__7 {
+                background-image: url("/images/aida.jpg");
+        }
+
+        &__8 {
+                background-image: url("/images/ainura.jpg");
+        }
+        &__9 {
+                background-image: url("/images/ainuraBakirova.jpg");
+        }
+
+        &__10 {
+                background-image: url("/images/saltanat.jpg");
+        }
+
+        &__11 {
+                background-image: url("/images/nasridin.jpg");
+        }
+
+        &__12 {
+                background-image: url("/images/diana.jpg");
+        }
+
+        &__name {
+                width: 168px;
+                height: 56px;
+                padding-left: 15px;
+                align-items: center;
+                background-color: $main-collor;
+                position: absolute;
+                top: 83%;
+                right: 36%;
+               
+        }
+
+        &__name h3 {
+                margin-top: 8px;
+                font-size: 18px;
+                line-height: 16px;
+                display: flex;
+                text-align: center;
+                color: #FFFFFF;
+        }
+
+
+
+}
+
+.teachers {
+
+        margin-bottom: 98px;
+
+        &__card {
+                height: 364px;
+                background-color: $main-collor;
+                position: relative;
+        }
+
+        &__img {
+                width: 204px;
+                min-height: 204px;
+                display: flex;
+                flex-direction: column;                               
+                background-image: url("/images/олжо.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center; 
+                border-radius: 100%; 
+                position: absolute;
+                left: 12%;
+                top: 5%;
+        }
+
+        &__2 {
+                background-image: url("/images/туратА.jpg");   
+        }
+
+        &__3 {
+                background-image: url("/images/mirlanA.jpg");   
+        }
+
+        &__4 {
+                background-image: url("/images/жаз.jpg");   
+        }
+
+        &__name {
+                width: 100%;
+                height: 82px;
+                background: radial-gradient(circle farthest-corner at 9px 10px,#f7a372, #be6021, #d85910);
+                position: absolute;
+                top: 73%;
+                padding-left: 25px;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+        }
+
+        
+
+}
