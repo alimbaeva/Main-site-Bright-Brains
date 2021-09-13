@@ -133,7 +133,7 @@
         }
 
         &__3 {
-                background-image: url("./images/aiperi.jpg");
+                background-image: url("../images/aiperi.jpg");
         }
 
         &__4 {
@@ -198,7 +198,7 @@
 
 .teachers {
 
-        margin-bottom: 98px;
+        margin-bottom: 128px;
 
         &__card {
                 height: 364px;
@@ -252,4 +252,39 @@
 
         
 
+}
+
+//---------------
+
+.contacts {
+
+        label {
+                color: $main-collor;
+        }
+
+        &__forms {
+                width: 600px;
+                margin: 0 auto;
+                
+        }
+
+        &__input {
+                border: 3px solid $main-collor;
+                border-radius: 20px;
+                color: $main-collor;
+        }
+
+        &__btn {
+                border: 3px solid $main-collor;
+                border-radius: 20px;
+                background-color: $main-collor;
+        }
+}
+
+//--------------------
+
+.footer {
+        &__cards {
+                
+        }
 }
