@@ -283,8 +283,35 @@
 
 //--------------------
 
-// .footer {
-//         &__cards {
+.footer {
 
-//         }
-// }
+        margin-top: 120px;
+        min-height: 320px;
+        background-color: $activ-color;
+
+
+        &__cards {
+                padding: 8% 0;
+                display: flex;
+                justify-content: space-between;
+                align-self: center;
+        }
+
+        &__sections {
+                display: flex;
+                flex-direction: column;
+
+        }
+
+        &__sections a {
+                margin-bottom: 11px;
+                text-decoration: none;
+                line-height: 21px;
+                color: #000000;
+        }
+
+        &__icon {
+                width: 18px;
+                height: 18px;
+        }
+}
