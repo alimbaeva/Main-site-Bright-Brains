@@ -1,0 +1,114 @@
+@import './vars';
+
+
+.mentors{
+    background-color: rgba(36, 58, 85, 0.72);
+
+    &__items {
+        padding-top: 139px;
+        padding-bottom: 149px;       
+        display: grid;
+        grid-template-columns: repeat(4, 268px);
+        grid-gap: 60px;
+    }
+
+    &__1 {
+        background-image: url("../images/aidanaOmurb.jpg");
+    }
+    &__2 {
+        background-image: url("../images/bakytAbdish.jpg");
+    }
+    &__3 {
+        background-image: url("../images/timurMone.jpg");
+    }
+    &__4 {
+        background-image: url("../images/beknazar.jpg");
+    }
+    &__5 {
+        background-image: url("../images/taalayiJuma.jpg");
+    }
+    &__6 {
+        background-image: url("../images/oljobai.jpg");
+    }
+    &__7 {
+        background-image: url("../images/aruuke.jpg");
+    }
+    &__8 {
+        background-image: url("../images/turatAlybaev.jpg");
+    }
+    &__9 {
+        background-image: url("../images/JAZ.jpg");
+    }
+    &__10 {
+        background-image: url("../images/azamatTokt.jpg");
+    }
+    &__11 {
+        background-image: url("../images/elenaChi.jpg");
+    }
+    &__12 {
+        background-image: url("../images/zamirM.jpg");
+    }
+    &__13 {
+        background-image: url("../images/elnuraNural.jpg");
+    }
+    &__14 {
+        background-image: url("../images/nurseitUU.jpg");
+    }
+    &__15 {
+        background-image: url("../images/damira.jpg");
+    }
+    &__16 {
+        background-image: url("../images/esen.jpg");
+    }
+    &__17 {
+        background-image: url("../images/erkebek.jpg");
+    }
+    &__18 {
+        background-image: url("../images/aliya.jpg");
+    }
+    &__19 {
+        background-image: url("../images/bermetDos.jpg");
+    }
+}
+
+.mentors__title {
+    text-align: center;
+    position: relative;
+    padding: 28px 0 29px;
+    margin: 0 0 60px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    text-transform: capitalize;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 155px;
+        height: 5px;
+        background-color: $activ-color;
+        content: "";
+    }
+
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 155px;
+        height: 5px;
+        background-color: $activ-color;
+        content: "";
+    }
+}
+
+.non-margin {
+    margin-top: 0;
+}
+.paddin{
+    padding-top: 100px;
+}
